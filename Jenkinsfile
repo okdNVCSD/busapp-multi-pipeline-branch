@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent wsmxtest2
     stages {
         stage('Docker Build') {
             steps {
